@@ -17,7 +17,7 @@ public class MutantsController {
     }
 
     public void generateXMen() {
-        XMen professorx = new XMen("Professor X", "Mind Control", 11, "Charles Xavier", "USA", true, true, "The X-Men #1 (September 1963)");
+        XMen professorx = new XMen("Prof X", "Mind Control", 11, "Charles Xavier", "USA", true, true, "The X-Men #1 (September 1963)");
         System.out.println(" ");
         System.out.println("Professor X :");
         professorx.sleep(6);
