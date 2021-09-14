@@ -28,7 +28,7 @@ public class MutantsController {
     }
 
     public void generateBrotherhoodOfEvilMutants() {
-        BrotherhoodOfEvilMutants magneto = new BrotherhoodOfEvilMutants("Magneto", "Magnetic Powers", 8, "Max Eisenhardt", "Germany", true, true, "The X-Men #1 (September 1963)");
+        BrotherhoodOfEvilMutants magneto = new BrotherhoodOfEvilMutants("MR Magneto", "Magnetic Powers", 8, "Max Eisenhardt", "Germany", true, true, "The X-Men #1 (September 1963)");
         System.out.println(" ");
         System.out.println("Magneto :");
         magneto.sleep(9);
